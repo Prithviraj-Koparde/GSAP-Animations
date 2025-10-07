@@ -12,19 +12,37 @@ html, body{
 }   
 
 #box{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     background-color: palegreen;
 }
 
 #box2{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     background-color: coral;
 }
 
 #box3{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     background-color: lightblue;
+}
+
+#box4{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+}
+
+#box5{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+}
+
+#box6{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
 }

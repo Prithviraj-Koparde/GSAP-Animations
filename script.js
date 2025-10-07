@@ -42,3 +42,30 @@ gsap.from("h2", {
     stagger:0.2,
     ease:"bounce"
 })
+
+let tl = gsap.timeline()
+
+tl.to("#box4", {
+    x: 1096,
+    duration:2,
+    rotate:360,
+    borderRadius:"50%",
+    backgroundColor:"purple",
+})
+
+tl.from("#box5", {
+    x: 1096,
+    duration:2,
+    rotate:360,
+    borderRadius:"50%",
+    backgroundColor:"orange",
+})
+
+tl.from("#box6",{
+    y:20,
+    duration:2,
+    rotate:360,
+    borderRadius:"50%",
+    backgroundColor:"pink",
+    ease:"bounce"
+})
