@@ -1,5 +1,5 @@
-let tl = gsap.timeline();
-tl.from("#page1 #box",{
+
+gsap.from("#page1 #box",{
     scale:0,
     duration:2,
     delay:1,
@@ -7,7 +7,7 @@ tl.from("#page1 #box",{
     ease:"bounce"
 })
 
-tl.from("#page2 h1",{
+gsap.from("#page2 h1",{
     opacity:0,
     x:500,
     duration:2,
@@ -19,7 +19,7 @@ tl.from("#page2 h1",{
     }
 })
 
-tl.from("#page2 h2",{
+gsap.from("#page2 h2",{
     opacity:0,
     x:-500,
     duration:2,
