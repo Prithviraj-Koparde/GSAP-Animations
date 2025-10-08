@@ -1,14 +1,9 @@
-gsap.from("#page2 #box",{
-    opacity:0,
-    scale:0,
-    duration:1,
-    rotate:720,
-    scrollTrigger:{
-        trigger:"#page2 #box",
+gsap.to("#page2 h1",{
+    transform:"transLateX(-200%)",
+    scrollTrigger: {
+        trigger:"#page2 h1",
         scroller:"body",
         markers:true,
-        start:"top 60%",
-        end:"top 40%",
-        scrub:4,
+        start:"top 50%",
     }
 })

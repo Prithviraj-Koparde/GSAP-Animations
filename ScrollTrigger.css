@@ -10,52 +10,30 @@ html, body{
     width: 100%;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 #page1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100%;
     width: 100%;
-    background-color: #ffadad;
+    background-color: black;
 }
 
 #page2{
-    display: flex;
-    flex-direction: column;
-    gap:10%;
-    columns: 1;
-    align-items: center;
-    justify-content: center;
     height: 100%;
     width: 100%;
-    background-color: #ffd6a5;
+    background-color: rgb(132, 233, 250);
 }
 
 #page3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100%;
     width: 100%;
-    background-color: #fdffb6;
+    background-color: black;
 }
 
-#box{
-    height: 400px;
-    width: 400px;
-    background-color: #ed0f52;
-}
-
-h1{
-    font-size: 50px;
-    position: relative;
-    background-color: #f52563;
-    padding: 10px;
-}
-
-h2{
-    font-size: 50px;
-    position: relative;
-    background-color: #f52563;
-    padding: 10px;
+#page2 h1{
+    font-size: 40vw;
+    font-weight: 500;
+    text-transform: uppercase;
 }
