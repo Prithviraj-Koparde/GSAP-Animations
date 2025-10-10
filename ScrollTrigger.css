@@ -18,6 +18,9 @@ body{
     height: 100%;
     width: 100%;
     background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #page2{
@@ -36,4 +39,31 @@ body{
     font-size: 40vw;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+#box1{
+    height: 500px;
+    width: 400px;
+    background-color: rgba(255, 0, 0, 0.377);
+    border-radius: 20px;
+}
+
+#box2{
+    height: 500px;
+    width: 400px;
+    background-color: rgba(0, 0, 255, 0.377);
+    border-radius: 20px;
+}
+
+#cursor{
+   height: 22px;
+    width: 22px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
