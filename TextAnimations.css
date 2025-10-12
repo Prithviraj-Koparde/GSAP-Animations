@@ -12,11 +12,22 @@ body {
     width: 100%;
 }
 
-body {
+#page1 {
+    height: 100%;
+    width: 100%;
     background-color: #111;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111e2;
 }
 
 h1 {
@@ -28,4 +39,14 @@ h1 {
 h1 span {
     display: inline-block;
     /* span tag is inline block now  */
+}
+
+#page2 h1{
+    font-size: 20vb;
+    /* background-color: red; */
+}
+
+#page2 h1 span{
+    display: inline-block;
+
 }

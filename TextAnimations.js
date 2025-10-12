@@ -45,15 +45,57 @@ breakTheText()
 // })
 
 gsap.from(".a", {
+    scale: 2,
     y: 80,
     opacity: 0,
     duration: 0.3,
-    stagger: 0.2
+    stagger: 0.2,
 })
 
 gsap.from(".b", {
+    scale: 2,
     y: -80,
     opacity: 0,
     duration: 0.3,
     stagger: -0.2
+})
+
+
+// ----------------- second page animation -------------------------
+function breakTheText1(){
+let h2 = document.querySelector("#page2 h1")
+let page2h1Text = h2.textContent
+let splittedText1 = page2h1Text.split("")
+
+let futureText1 = ""
+let halfValue = (splittedText1.length) / 2
+
+
+splittedText1.forEach(function (value,idx) {
+    if (idx < halfValue) {
+        futureText1 += `<span class="c">${value}</span>`
+    } else {
+        futureText1 += `<span class="d">${value}</span>`
+    }
+})
+h2.innerHTML = futureText1;  
+}
+
+breakTheText1()         // function call
+
+
+gsap.from(".c", {
+    y:100,
+    scale:2,
+    opacity:0,
+    duration:0.2,
+    stagger:0.1,
+})
+
+gsap.from(".d", {
+    y:-100,
+    scale:2,
+    opacity:0,
+    duration:0.2,
+    stagger:-0.1,
 })
