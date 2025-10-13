@@ -1,0 +1,50 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #111;
+}
+
+#page1,
+#page2,
+#page3 {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    /* background-color: aqua; */
+    display: flex;
+    padding: 3vw 0;
+    overflow-x: hidden;
+}
+
+.page2Animation {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 2vw;
+    padding: 0 1.15vw;
+    background-color: rgba(248, 248, 19, 0.9);
+    transform: 'translateX(-100%)';
+    /* to keep the content in middle  */
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    height: 90px;
+    font-size: 70px;
+    font-weight: 700;
+}
