@@ -1,7 +1,7 @@
 * {
     padding: 0%;
     margin: 0%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
 }
 
@@ -17,6 +17,7 @@ section {
     position: relative;
 }
 
+/* page - 1 - css */
 nav {
     display: flex;
     justify-content: space-between;
@@ -125,12 +126,14 @@ nav {
     filter: grayscale(100%);
 }
 
-.section-2{
+
+/* page - 2 - css */
+.section-2 {
     height: 100%;
     width: 100%;
 }
 
-.section-2-services{
+.section-2-services {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -141,20 +144,20 @@ nav {
     margin-top: 20px;
 }
 
-.section-2-services h1{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.section-2-services h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     background-color: #B9FF66;
     padding: 5px 10px;
     border-radius: 5px;
 }
 
-.section-2-services p{
+.section-2-services p {
     font-size: 15px;
     width: 50%;
 }
 
-.section-2-containers{
+.section-2-containers {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -164,7 +167,7 @@ nav {
     width: 100%;
 }
 
-.section-2-containers .elements{
+.section-2-containers .elements {
     display: flex;
     justify-content: space-between;
     flex-shrink: 0;
@@ -175,22 +178,22 @@ nav {
     box-shadow: 10px 10px 15px black;
 }
 
-.blackEle{
+.blackEle {
     background-color: black;
 }
 
-.blackEle #elements-left-side h3{
+.blackEle #elements-left-side h3 {
     color: white;
 }
 
-.section-2-containers .elements #elements-left-side{
+.section-2-containers .elements #elements-left-side {
     height: 100%;
     width: 50%;
     border-radius: 20px;
     padding: 30px;
 }
 
-.section-2-containers .elements #elements-left-side h1{
+.section-2-containers .elements #elements-left-side h1 {
     margin-bottom: 80px;
     width: 80%;
     background-color: #B9FF66;
@@ -198,7 +201,7 @@ nav {
     padding: 0px 5px;
 }
 
-.section-2-containers .elements #elements-left-side h3{
+.section-2-containers .elements #elements-left-side h3 {
     font-size: 20px;
     font-weight: 500;
     display: flex;
@@ -217,16 +220,67 @@ nav {
 .section-2-containers .elements #elements-right-side {
     height: 100%;
     width: 50%;
-    padding: 10px 65px; 
+    padding: 10px 65px;
 }
 
 .section-2-containers .elements #elements-right-side img {
-    height: 225px; 
+    height: 225px;
     width: 225px;
     border-radius: 50px;
     filter: grayscale(1);
 }
 
+/* page - 3 - css (section-3)*/
 
+.section-3 {
+    height: 100%;
+    width: 100%;
+}
 
+.section-3-top {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: #a9afce;
+    height: 40%;
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 40px 50px;
+    border-radius: 50px;
+}
 
+.section-3-top #section-3-top-left {
+    height: 100%;
+    width: 50%;
+}
+
+.section-3-top #section-3-top-left h1 {
+    margin-bottom: 30px;
+}
+
+.section-3-top #section-3-top-left p {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.section-3-top #section-3-top-left button {
+    font-size: 15px;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.section-3-top #section-3-top-right {
+    height: 100%;
+    width: 30%;
+    padding-left: 80px;
+    margin-bottom: 30px;
+}
+
+.section-3-top #section-3-top-right img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+}
