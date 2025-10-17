@@ -63,7 +63,7 @@ nav {
     cursor: pointer;
 }
 
-#Req-btn:hover{
+#Req-btn:hover {
     background-color: black;
     color: white;
     transition: 0.5s;
@@ -107,7 +107,7 @@ nav {
     cursor: pointer;
 }
 
-#Book-btn:hover{
+#Book-btn:hover {
     scale: 1.015;
     transition: 0.5s;
 }
@@ -286,7 +286,7 @@ nav {
     cursor: pointer;
 }
 
-#Get-btn:hover{
+#Get-btn:hover {
     scale: 1.015;
     transition: 0.2s;
 }
@@ -305,7 +305,7 @@ nav {
     box-shadow: 8px 8px 10px white;
 }
 
-.section-3-middle{
+.section-3-middle {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -318,7 +318,7 @@ nav {
     padding-left: 10px;
 }
 
-.section-3-middle h1{
+.section-3-middle h1 {
     font-size: 30px;
     font-weight: 800;
     background-color: #B9FF66;
@@ -326,41 +326,42 @@ nav {
     border-radius: 10px;
 }
 
-.section-3-middle p{
+.section-3-middle p {
     font-size: 15px;
     width: 60%;
 }
 
-.section-3-bottom{
+.section-3-bottom {
     display: flex;
     height: 40%;
     width: 95%;
     gap: 40px;
     align-items: center;
     background-color: rgb(26, 26, 26);
-    color: white;   /**/
+    color: white;
+    /**/
     margin-left: 40px;
     border-radius: 50px;
     padding: 50px;
 }
 
-.section-3-bottom h1{
+.section-3-bottom h1 {
     border-left: 3px solid white;
     height: 180px;
 }
 
-.section-3-bottom #bottom-content{
+.section-3-bottom #bottom-content {
     height: 100%;
     width: 30%;
     padding: 10px;
 }
 
-.section-3-bottom #bottom-content p{
+.section-3-bottom #bottom-content p {
     font-size: 15px;
     margin-bottom: 30px;
 }
 
-.section-3-bottom #bottom-content h3{
+.section-3-bottom #bottom-content h3 {
     display: flex;
     gap: 5px;
     align-items: center;
@@ -369,7 +370,7 @@ nav {
     cursor: pointer;
 }
 
-.section-3-bottom #bottom-content h3 i{
+.section-3-bottom #bottom-content h3 i {
     padding: 4px;
     border-radius: 50%;
     font-weight: 900;

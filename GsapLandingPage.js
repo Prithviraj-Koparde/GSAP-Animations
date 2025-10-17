@@ -91,55 +91,55 @@ page2Animation()                       // page-2-animation
 
 // page 3 animation
 
-function page3Animation(){
+function page3Animation() {
     let tl3 = gsap.timeline({
-    scrollTrigger:{
-        trigger:".section-3",
-        scroller: "body",
-        markers:true,
-        start: "top 50%",
-        end: "top 0%",
-        scrub:2
-    }
-})
+        scrollTrigger: {
+            trigger: ".section-3",
+            scroller: "body",
+            markers: true,
+            start: "top 50%",
+            end: "top 0%",
+            scrub: 2
+        }
+    })
 
-tl3.from(".section-3-top",{
-    x:-300,
-    duration:0.1,
-    opacity:0
-},"content")
+    tl3.from(".section-3-top", {
+        x: -300,
+        duration: 0.1,
+        opacity: 0
+    }, "content")
 
-tl3.from(".section-3-top h1",{
-    x:300,
-    opacity:0
-},"top-content")
+    tl3.from(".section-3-top h1", {
+        x: 300,
+        opacity: 0
+    }, "top-content")
 
-tl3.from(".section-3-top p",{
-    x:300,
-    opacity:0
-},"top-content")
+    tl3.from(".section-3-top p", {
+        x: 300,
+        opacity: 0
+    }, "top-content")
 
-tl3.from(".section-3-top button",{
-    duration:2,
-    opacity:0
-},"top-content")
+    tl3.from(".section-3-top button", {
+        duration: 2,
+        opacity: 0
+    }, "top-content")
 
-tl3.from(".section-3-top img",{
-    x:100,
-    opacity:0
-},"top-content")
+    tl3.from(".section-3-top img", {
+        x: 100,
+        opacity: 0
+    }, "top-content")
 
 
-tl3.from(".section-3-middle",{
-    y:300,
-    opacity:0,
-    duration:1
-},"-=1")
+    tl3.from(".section-3-middle", {
+        y: 300,
+        opacity: 0,
+        duration: 1
+    }, "-=1")
 
-tl3.from(".section-3-bottom",{
-    x:-300,
-    opacity:0,
-    duration:0.5
-},"+=0.1","content")
+    tl3.from(".section-3-bottom", {
+        x: -300,
+        opacity: 0,
+        duration: 0.5
+    }, "+=0.1", "content")
 }
 page3Animation()                         // page-3-animation
